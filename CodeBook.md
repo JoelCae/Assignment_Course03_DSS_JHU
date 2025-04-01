@@ -5,17 +5,26 @@ This code book describes the data, the variables, and any
 transformations or work that I performed to clean up the data created in
 the script run_analysis.R.
 
-## Data sets
+## Data set
 
 The analysis uses the Human Activity Recognition Using Smartphones
 Dataset, the data set contains the measure for different variables for
 30 volunteers in 6 different activities, the idea is that different kind
-of activities produces different measures.
-
-A full description is available at the site where the data was obtained:
-
-[Human Activity Recognition Using
+of activities produces different measures. A full description is
+available at the site where the data was obtained: [Human Activity
+Recognition Using
 Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
+The final Tidy Data Set contains:
+
+| Variable          | Description                               |
+|-------------------|-------------------------------------------|
+| Subject           | ID for the volunteer (1-30)               |
+| Activity          | Label for activity (from activity_labels) |
+| Mean of variables | The mean of the indicated variable        |
+
+The run_analysis.R. assigns a description for each variable in the tidy
+data set. In the section **Variables** I present the complete list.
 
 ## Variables
 
