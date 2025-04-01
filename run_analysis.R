@@ -21,20 +21,16 @@ subject_all <- rbind(subject_train, subject_test)
 names(subject_all) <- "subject"
 
 ## Activities 
-y_train <- read.delim("train/y_train.txt", sep = " ", header = F)
-y_test <- read.delim("test/y_test.txt", sep = " ", header = F)
+y_train <- read.table("train/y_train.txt")
+y_test <- read.table("test/y_test.txt")
 
 y_all <- rbind(y_train, y_test)
 names(y_all) <- "activity"
 
 ## Sets 
-x_train <- scan("train/x_train.txt", "")
-  #x train as dataframe (using n in train)
-x_train <- as.data.frame(matrix(as.numeric(x_train), nrow = length(y_train[,1])))
+x_train <- read.table("train/x_train.txt")
 
-x_test <- scan("test/x_test.txt", "")
-  #x test as dataframe (using n in test)
-x_test <- as.data.frame(matrix(as.numeric(x_test), nrow = length(y_test[,1])))
+x_test <- read.table("test/x_test.txt")
 
 x_all <- rbind(x_train, x_test)
 
