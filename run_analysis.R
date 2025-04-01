@@ -89,4 +89,4 @@ sub_dataset_5 <- sub_dataset %>%
 
 sub_dataset_5[1:10,1:5]
 
-write.table(sub_dataset,"assignment_tidy_dataset.txt",row.name=FALSE)
+write.table(sub_dataset_5,"assignment_tidy_dataset.txt",row.name=FALSE)
