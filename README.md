@@ -15,6 +15,11 @@ where I describe how it works.
 
 ### About run_analysis.R
 
+To run the script, It is needed to have the data set provided in the
+assignment
+([Data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip))
+and the libraries labelled and dplyr.
+
 I divide the script in 6 parts, one per bullet in the assignment and one
 more for Read Data. The bullets in the assignment are:
 
@@ -54,3 +59,9 @@ labelled package.
 PART 5: AVERANGES PER SUBJECT-ACTIVITY section obtains the mean for the
 previous data set, for this I group by subject-activity. I use the dplyr
 package.
+
+### About Codebook
+
+The coode book describes the data, the variables, and any
+transformations or work that I performed to clean up the data created in
+the script run_analysis.R.
