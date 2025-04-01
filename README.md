@@ -8,7 +8,8 @@ any transformations or work that I performed to clean up the data.
 
 The CodeBook.md has a explanation of the variables in the data set
 created in run_analysis.R. This is useful if you can have a better
-comprehension of the data.
+comprehension of the data. I also add the tity data set (file
+assignment_tidy_dataset.txt) to the repository.
 
 For the script run_analysis.R, you can read the the next explanation
 where I describe how it works.
