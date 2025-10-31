@@ -16,8 +16,6 @@ where I describe how it works.
 
 ### About run_analysis.R
 
-<iframe src="https://joelcae.github.io/analisis-mmcdmx2025/html/plot.html" width="100%" height="450"></iframe>
-
 To run the script, It is needed to have the data set provided in the
 assignment
 ([Data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip))
@@ -68,5 +66,6 @@ package.
 The coode book describes the data, the variables, and any
 transformations or work that I performed to clean up the data created in
 the script run_analysis.R.
+
 
 
